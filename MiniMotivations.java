@@ -33,17 +33,19 @@ public class MiniMotivations implements ActionListener {
         /* Create a content pane */
         contentPane = new JPanel();
 
-		/* Create and add label */
-	    label = new JLabel("Hello.");
+	/* Create and add label */
+		//NEEDS LINE BREAKS//
+	    	//NEEDS OPENING IMAGE//
+	label = new JLabel("Hello.");
         contentPane.add(label);
 
-		/* Create and add button */
+	/* Create and add button */
         button = new JButton("Start");
     	button.setActionCommand("Start");
     	button.addActionListener(this);
     	contentPane.add(button);
 
-		/* Add content pane to frame */
+	/* Add content pane to frame */
         frame.setContentPane(contentPane);
 
         /* Size and then display the frame. */
